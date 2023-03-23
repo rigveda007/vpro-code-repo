@@ -1,0 +1,6 @@
+Definitions of Docker Components: 
+	- Docker Images: Light weight OS which is used to create containers
+	- Docker Containers: Run time instances of docker images
+	- Dockerfile: text file containing instructions to build docker image
+	- Docker Hub: Central docker repository
+	- Docker Daemon: Contains the docker service
