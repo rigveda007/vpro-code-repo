@@ -1,0 +1,8 @@
+Tech Stack: 
+  - Linux
+  - AWS
+  - Git
+  - Jenkins
+  - Maven
+  - Kubernetes
+  - Docker
