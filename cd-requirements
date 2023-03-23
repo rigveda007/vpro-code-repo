@@ -1,0 +1,5 @@
+Requirements for CD:
+	- Tomcat
+	- Mariadb
+	- RabbitMQ
+	- Deploy to container plugin
