@@ -1,0 +1,4 @@
+Jenkins Requirements:
+  - Nexus
+  - SonarQube
+  - Quality Gates
