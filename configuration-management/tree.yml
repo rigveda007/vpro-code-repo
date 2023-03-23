@@ -1,0 +1,11 @@
+---
+- name: test playbook
+  hosts: webservers
+  become: true
+
+  tasks:
+    - name: installing tree package on nodes
+      yum:
+        name: tree
+        state: installed
+      when: ansible-os-family=="RHEL"
