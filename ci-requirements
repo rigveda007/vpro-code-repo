@@ -1,4 +1,10 @@
+Requirements:
+  - AWS
+  - EC2
+  - Jenkins
+
 Jenkins Requirements:
   - Nexus
   - SonarQube
   - Quality Gates
+
