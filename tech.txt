@@ -6,3 +6,4 @@ Tech Stack:
   - Maven
   - Kubernetes
   - Docker
+  - Boto3
