@@ -1,5 +1,12 @@
-task:
-  - name: installing httpd
-    yum:
+---
+- name: test playbook
+  hosts: webservers
+  user: ansadmin
+  become: true
+
+  task:
+   - name: installing httpd
+     yum:
       name: httpd
       state: installed
+
