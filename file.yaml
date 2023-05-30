@@ -1,0 +1,13 @@
+---
+- name: dev playbook
+  hosts: webservers
+  connection: ssh
+  become: true
+
+  task:
+    - name: copy file to nodes
+      copy:
+        src: /home/ansadmin/setup.sh
+        dest: /home/ansadmin
+        mode: 0777
+        owner: Bodhisatwya
