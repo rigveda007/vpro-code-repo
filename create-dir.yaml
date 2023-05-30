@@ -1,0 +1,10 @@
+---
+- name: dev playbook
+  hosts: webservers
+  become: true
+
+  tasks:
+    - name: create a playbook directory on the nodes
+      file:
+        path: /home/ansadmin/playbook
+        state: directory
