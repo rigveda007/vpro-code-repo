@@ -1,0 +1,20 @@
+DVCS:
+  - Git
+  - GitHub
+
+Containers:
+  -Docker
+
+Configuration Management:
+  - Ansible
+
+Cloud Automation:
+  - boto3
+  - Lambda
+
+CI/CD:
+  - Jenkins
+
+IAC:
+  - Terraform
+  - Cloud Formation
